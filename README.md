@@ -36,7 +36,7 @@ Tous les tests utilisent **exclusivement des attributs `data-cy`** pour cibler l
 **Exemple d’utilisation :**
 ```html
 <button data-cy="btnShop">Shop Now</button>
-
+```
 ## Défi rencontré : le composant Swiper
 
 L'un des défis rencontrés lors de l'écriture des tests a été lié à la **section Best Sellers**, qui utilise un **slider Swiper**. Par défaut, Swiper masque les éléments non actifs (`overflow: hidden`), ce qui empêche Cypress de les détecter comme visibles.
